@@ -47,7 +47,7 @@ class RoundedListView extends StatelessWidget {
             shrinkWrap: true, // Prevent scrolling
             itemCount: 5,
             itemBuilder: (context, index) {
-              final items = ['Compose File', 'Drafts', 'Track File', 'Outbox', 'Inbox'];
+              final items = ['Create File', 'Drafts', 'Track File', 'Outbox', 'Inbox'];
               final paths = [
                 '/create_file', // Path for Compose File
                 '/view_drafts', // Path for Drafts
