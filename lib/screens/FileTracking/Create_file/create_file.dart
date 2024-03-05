@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class CreateFilePage extends StatefulWidget {
@@ -40,6 +41,7 @@ class _CreateFilePageState extends State<CreateFilePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFFF5D7BD), // Set background color
       appBar: AppBar(
         title: Text('Create File'),
       ),
@@ -61,7 +63,7 @@ class _CreateFilePageState extends State<CreateFilePage> {
                   Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // TODO: Replace with user name and designation
+                      // TODO: Replace with user name and designation\
                       Text(
                         "Rohit Sharma",
                         style: TextStyle(
@@ -95,8 +97,11 @@ class _CreateFilePageState extends State<CreateFilePage> {
             Divider(thickness: 1.0, color: Colors.grey[300]),
 
             // Form content
+            
             Column(
+        
               children: [
+                
                 // Title field
                 TextField(
                   controller: _titleController,
